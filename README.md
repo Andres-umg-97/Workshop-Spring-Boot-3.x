@@ -1,24 +1,24 @@
-🚀 Workshop Spring Boot 3.x + JDK 17
-📌 Descripción
+# 🚀 Workshop Spring Boot 3.x + JDK 17
+# 📌 Descripción
 
 Este proyecto es una API REST desarrollada con Spring Boot 3.x como parte de un laboratorio práctico.
 Incluye validaciones, manejo de errores, documentación con Swagger/OpenAPI y un endpoint de negocio.
 
-🛠️ Tecnologías utilizadas
+# 🛠️ Tecnologías utilizadas
 Java 17
 Spring Boot 3.x
 Maven
 Jakarta Validation
 Swagger / OpenAPI
 
-⚙️ Ejecución del proyecto
+# ⚙️ Ejecución del proyecto
 1. Clonar repositorio
 git clone <TU_REPOSITORIO>
 cd springboot-api-demo
 2. Ejecutar aplicación
 mvn spring-boot:run
 
-🌐 Endpoints disponibles
+# 🌐 Endpoints disponibles
 ✔ Health Check
 GET /api/v1
 
@@ -43,7 +43,7 @@ Validación:
 
 Si el nombre está vacío → error 400
 
-💰 Endpoint desafiante: Simulador de préstamo
+# 💰 Endpoint desafiante: Simulador de préstamo
 ✔ Endpoint
 POST /api/v1/simulaciones/prestamo
 ✔ Request
@@ -59,7 +59,7 @@ POST /api/v1/simulaciones/prestamo
   "totalPagar": 10661.88
 }
 
-📊 Fórmula utilizada
+# 📊 Fórmula utilizada
 cuota = P * (r * (1 + r)^n) / ((1 + r)^n - 1)
 
 Donde:
@@ -67,14 +67,15 @@ Donde:
 P = monto
 r = tasa mensual
 n = número de meses
-⚠️ Manejo de errores
+
+# ⚠️ Manejo de errores
 
 Se implementa un manejador global:
 
 VALIDATION_ERROR → errores de validación
 BUSINESS_RULE_ERROR → reglas de negocio
 
-📄 Documentación (Swagger)
+# 📄 Documentación (Swagger)
 
 Disponible en:
 
